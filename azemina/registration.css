@@ -1,0 +1,119 @@
+body {
+  background: url(slika.jpg);
+  
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: 100%;
+  font: 14px Arial;
+  font-size: 10px;
+
+
+}
+
+form {
+
+  background: white;
+  padding: 4em 4em 2em;
+  max-width: 450px;
+  margin: 50px;
+
+  box-shadow: 0 0 1em #222;
+  border-radius: 2px;
+  margin-bottom: 50px;
+  margin-left: 100px;
+}
+
+form h2 {
+  margin: 0 0 50px 0;
+  padding: 10px;
+  text-align: center;
+  font-size: 30px;
+  color: #666666;
+  border-bottom: solid 1px #e5e5e5;
+  font: 25px Helvetica, Arial, sans-serif;
+}
+
+form p {
+  margin: 0 0 3em 0;
+  position: relative;
+}
+
+form input {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  outline: none;
+  margin: 0;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="date"],
+form input[type="password"] {
+  background: #fff;
+  border: 1px solid #dbdbdb;
+  font-size: 1.6em;
+  padding: .8em .5em;
+  border-radius: 2px;
+}
+
+form input[type="text"]:focus,
+form input[type="password"]:focus {
+  background: #fff;
+}
+
+form span {
+  display: block;
+  background: #F9A5A5;
+  padding: 2px 5px;
+  color: #666;
+}
+
+form input[type="submit"] {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  border-radius: 20px;
+  border: none;
+  color: black;
+  cursor: pointer;
+  display: block;
+  font-size: 2em;
+  line-height: 1.6em;
+  margin: 2em 0 0;
+  outline: none;
+  padding: .8em 0;
+  
+}
+
+form input[type="submit"]:hover {
+    background: #7f8c8d;
+  background: -moz-linear-gradient(top, #F4D3C2) 0%, rgba(254,231,154,1) 100%);
+  
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fec151', endColorstr='#fee79a',GradientType=0 );
+}
+
+form label {
+  position: absolute;
+  left: 8px;
+  top: 12px;
+  color: #999;
+  font-size: 16px;
+  display: inline-block;
+  padding: 4px 10px;
+  font-weight: 400;
+  background-color: rgba(255, 255, 255, 0);
+  transition: color 0.3s, top 0.3s, background-color 0.8s;
+}
+
+form label.floatLabel {
+  top: -11px;
+  background-color: rgba(255, 255, 255, 0.8);
+  font-size: 14px;
+}
+.error{
+  color:red;
+  
+}

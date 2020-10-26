@@ -1,0 +1,134 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.images2 img{
+	float:left;
+	width:25%;
+	height:530px;
+	filter:brightness(60%);
+	filter:grayscale(100%);
+
+	
+} 
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 49%;
+    transform: translate(-48%,175px);
+    color:black;
+}
+.images2{
+	position:relative;
+	width:100%;
+	text-align:center;
+
+}
+.images2 h1{
+	font-size:70px;
+	font-weight: bold;
+	padding-top:20px;
+}
+.images2 p{
+	font-size:20px;
+	font-weight: bold;
+	padding-top:15px;
+}
+main{
+	width:1100px;
+	margin:auto;
+}
+.images{
+	width:300px;
+	height:350px;
+	margin-bottom:20px;
+
+}
+.length div{
+float:left;
+margin-right:100px;
+text-align: center;
+font-size: 20px;
+font-weight: bold;
+margin-bottom:80px;
+margin-right:100px;
+}
+
+.gender {
+padding-left:200px;
+
+}
+
+
+.clear{
+	clear:both;
+}
+
+.length .no-margin{
+	margin-right:0;
+}
+.colour .no-margin{
+	margin-right:0;
+}
+h2{
+
+	font-size:40px;
+	font-weight: bold;
+	text-align:center;
+	margin-bottom:30px;
+	padding-top:100px;
+
+}
+
+.gender, .colour div{
+	margin-right:200px;
+}
+
+#black{
+	background-color: black;
+	width: 100%;
+	height:40px;
+	position: fixed;
+	overflow: hidden;
+	z-index:1;
+
+}
+#black h2{
+	color:white;
+	font-size:22px;
+	font-weight: bold;
+	float:left;
+	padding:5px;
+	padding-top:7px;
+	padding-left:20px;
+
+}
+
+.podnaslovi{
+	float:right;
+	font-weight: bold;
+	color:white;
+}
+.podnaslovi a{
+	float: left;
+padding:9px;
+padding-left:15px;
+padding-right:18px;
+border-left:1px solid grey;
+text-align: center;
+color:white;
+text-decoration: none;
+}
+
+footer
+{
+	z-index:1; /* da header ide preko slika */
+	
+	overflow: hidden;
+    /* Set the navbar to fixed position */
+    bottom:0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+
+
+}
